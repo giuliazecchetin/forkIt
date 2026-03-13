@@ -1,46 +1,73 @@
 import { useState } from 'react';
+import styles from './recipeCard.module.css';
 
 function RecipeCard({ recipe }) {
   const [showDetails, setShowDetails] = useState(false);
 
   return (
-    <div style={{ border: '1px solid #ccc', borderRadius: '8px', padding: '16px', margin: '10px', width: '250px' }}>
-      <img src={`/public/images/${recipe.image}`} alt={recipe.name} style={{ width: '100%' }} />
-      <h3>{recipe.name}</h3>
-      <p>Difficoltà: {recipe.difficulty} | Tempo: {recipe.time}</p>
+    <>
+      <article className={styles.card}>
+        <div className={styles.imageWrap}>
+          <img src={`/images/${recipe.image}`} alt={recipe.name} className={styles.image} />
+        </div>
 
-      <button onClick={() => setShowDetails((prev) => !prev)}>
-        {showDetails ? 'Nascondi Ricetta' : 'Vedi Ricetta'}
-      </button>
-
-      {showDetails && (
-        <div style={{ marginTop: '12px' }}>
-          {recipe.description && <p>{recipe.description}</p>}
+        <div className={styles.content}>
+          <h3 className={styles.title}>{recipe.name}</h3>
+          <p className={styles.meta}>Difficolta: {recipe.difficulty} | Tempo: {recipe.time}</p>
 
           {Array.isArray(recipe.ingredients) && recipe.ingredients.length > 0 && (
-            <>
-              <h4>Ingredienti</h4>
-              <ul>
+            <div className={styles.ingredientsBlock}>
+              <h4 className={styles.sectionTitle}>Ingredienti</h4>
+              <ul className={styles.list}>
                 {recipe.ingredients.map((ingredient, index) => (
                   <li key={index}>{ingredient}</li>
                 ))}
               </ul>
-            </>
+            </div>
           )}
 
-          {Array.isArray(recipe.steps) && recipe.steps.length > 0 && (
-            <>
-              <h4>Procedimento</h4>
-              <ol>
-                {recipe.steps.map((step, index) => (
-                  <li key={index}>{step}</li>
-                ))}
-              </ol>
-            </>
-          )}
+          <button type="button" className={styles.toggleButton} onClick={() => setShowDetails(true)}>
+            Apri dettagli
+          </button>
+        </div>
+      </article>
+
+      {showDetails && (
+        <div className={styles.modalOverlay} onClick={() => setShowDetails(false)}>
+          <div
+            className={styles.modal}
+            role="dialog"
+            aria-modal="true"
+            aria-label={`Dettagli ricetta ${recipe.name}`}
+            onClick={(event) => event.stopPropagation()}
+          >
+            <div className={styles.modalHeader}>
+              <h3 className={styles.title}>{recipe.name}</h3>
+              <button type="button" className={styles.closeButton} onClick={() => setShowDetails(false)}>
+                Chiudi
+              </button>
+            </div>
+
+            <p className={styles.meta}>Difficolta: {recipe.difficulty} | Tempo: {recipe.time}</p>
+
+            <div className={styles.details}>
+              {recipe.description && <p className={styles.description}>{recipe.description}</p>}
+
+              {Array.isArray(recipe.steps) && recipe.steps.length > 0 && (
+                <>
+                  <h4 className={styles.sectionTitle}>Procedimento</h4>
+                  <ol className={styles.orderedList}>
+                    {recipe.steps.map((step, index) => (
+                      <li key={index}>{step}</li>
+                    ))}
+                  </ol>
+                </>
+              )}
+            </div>
+          </div>
         </div>
       )}
-    </div>
+    </>
   );
 }
 

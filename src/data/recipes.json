@@ -15,7 +15,7 @@
     },
     {
         "id": 2,
-        "image": "toast-salato.jpg",
+        "image": "toast-salato.png",
         "name": "Toast salato",
         "difficulty": "Facile",
         "time": "5 min",
@@ -29,7 +29,7 @@
     },
     {
         "id": 3,
-        "image": "ricotta-dolce.jpg",
+        "image": "ricotta-dolce.png",
         "name": "Ricotta dolce",
         "difficulty": "Facile",
         "time": "10 min",
@@ -42,7 +42,7 @@
     }, 
     {
         "id": 4,
-        "image": "pasta-ragu-mozzarella.jpg",
+        "image": "pasta-ragu.png",
         "name": "Pasta al ragù e mozzarella",
         "difficulty": "Media",
         "time": "20 min",
@@ -54,7 +54,7 @@
     },
     {
         "id": 5,
-        "image": "pasta-pesto.jpg",
+        "image": "pasta-pesto.png",
         "name": "Pasta al pesto",
         "difficulty": "Facile",
         "time": "15 min",
@@ -66,7 +66,7 @@
     },
     {
         "id": 6,
-        "image": "cous-cous.jpg",
+        "image": "cous-cous.png",
         "name": "Cous cous",
         "difficulty": "Media",
         "time": "15 min",
@@ -80,7 +80,7 @@
     },
     {
         "id": 7,
-        "image": "insalata-riso.jpg",
+        "image": "insalata-di-riso.png",
         "name": "Insalata di riso",
         "difficulty": "Media",
         "time": "20 min",
