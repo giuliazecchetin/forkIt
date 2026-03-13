@@ -1,0 +1,96 @@
+[
+    {
+        "id": 1,
+        "image": "yogurt-bowl.png",
+        "name": "Yogurt Bowl",
+        "difficulty": "Facile",
+        "time": "10 min",
+        "ingredients": [
+            "Yogurt greco intero",
+            "Frutta fresca (es. fragole, mirtilli, banane)",
+            "Avena o muesli",
+            "Miele o sciroppo d'acero",
+            "Noci o mandorle"
+        ]
+    },
+    {
+        "id": 2,
+        "image": "toast-salato.jpg",
+        "name": "Toast salato",
+        "difficulty": "Facile",
+        "time": "5 min",
+        "ingredients": [
+            "Pane (integrale)",
+            "Avocado intero schiacciato",
+            "2 uova (sode, strapazzate o in camicia)",
+            "Olio d'oliva",
+            "Sale e pepe"
+        ]
+    },
+    {
+        "id": 3,
+        "image": "ricotta-dolce.jpg",
+        "name": "Ricotta dolce",
+        "difficulty": "Facile",
+        "time": "10 min",
+        "ingredients": [
+            "Ricotta fresca",
+            "Miele o zucchero a velo",
+            "Frutta secca (es. noci, mandorle)",
+            "Cacao in polvere (opzionale)"
+        ]
+    }, 
+    {
+        "id": 4,
+        "image": "pasta-ragu-mozzarella.jpg",
+        "name": "Pasta al ragù e mozzarella",
+        "difficulty": "Media",
+        "time": "20 min",
+        "ingredients": [
+            "Pasta",
+            "Ragù di carne",
+            "Mozzarella"
+            ]
+    },
+    {
+        "id": 5,
+        "image": "pasta-pesto.jpg",
+        "name": "Pasta al pesto",
+        "difficulty": "Facile",
+        "time": "15 min",
+        "ingredients": [
+            "Pasta",
+            "Pesto alla genovese",
+            "Parmigiano grattugiato"
+            ]
+    },
+    {
+        "id": 6,
+        "image": "cous-cous.jpg",
+        "name": "Cous cous",
+        "difficulty": "Media",
+        "time": "15 min",
+        "ingredients": [
+            "Cous cous",
+            "Verdure grigliate (es. zucchine, melanzane, peperoni)",
+            "Ceci",
+            "Olio d'oliva",
+            "Limone"
+            ]
+    },
+    {
+        "id": 7,
+        "image": "insalata-riso.jpg",
+        "name": "Insalata di riso",
+        "difficulty": "Media",
+        "time": "20 min",
+        "ingredients": [
+            "Riso",
+            "Tonno in scatola",
+            "Prosciutto cotto",
+            "Piselli",
+            "Olive",
+            "Maionese"
+            ]
+    }
+]
