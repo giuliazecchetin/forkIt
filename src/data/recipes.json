@@ -11,6 +11,13 @@
             "Avena o muesli",
             "Miele o sciroppo d'acero",
             "Noci o mandorle"
+        ],
+        "steps": [
+            "Versa lo yogurt greco in una ciotola capiente.",
+            "Taglia la frutta fresca a pezzetti e distribuiscila sopra lo yogurt.",
+            "Aggiungi avena o muesli per una parte croccante.",
+            "Completa con miele o sciroppo d'acero a filo.",
+            "Guarnisci con noci o mandorle e servi subito."
         ]
     },
     {
@@ -25,6 +32,13 @@
             "2 uova (sode, strapazzate o in camicia)",
             "Olio d'oliva",
             "Sale e pepe"
+        ],
+        "steps": [
+            "Tosta le fette di pane fino a renderle dorate e croccanti.",
+            "Schiaccia l'avocado con una forchetta e condiscilo con sale, pepe e un filo d'olio.",
+            "Spalma l'avocado sul pane tostato in modo uniforme.",
+            "Prepara le uova come preferisci (sode, strapazzate o in camicia).",
+            "Adagia le uova sul toast, regola di sale e pepe e servi."
         ]
     },
     {
@@ -38,6 +52,13 @@
             "Miele o zucchero a velo",
             "Frutta secca (es. noci, mandorle)",
             "Cacao in polvere (opzionale)"
+        ],
+        "steps": [
+            "Metti la ricotta in una ciotola e lavorala con un cucchiaio fino a renderla cremosa.",
+            "Dolcifica con miele o zucchero a velo secondo il tuo gusto.",
+            "Trita grossolanamente la frutta secca e uniscila alla ricotta.",
+            "Mescola bene per amalgamare tutti gli ingredienti.",
+            "Spolvera con cacao in polvere, se desideri, e servi."
         ]
     }, 
     {
@@ -50,7 +71,14 @@
             "Pasta",
             "Ragù di carne",
             "Mozzarella"
-            ]
+        ],
+        "steps": [
+            "Porta a bollore una pentola di acqua salata e cuoci la pasta.",
+            "Nel frattempo scalda il ragù in una padella capiente a fuoco dolce.",
+            "Scola la pasta al dente, tenendo da parte poca acqua di cottura.",
+            "Unisci la pasta al ragù e manteca per 1 minuto, aggiungendo acqua se serve.",
+            "A fuoco spento aggiungi la mozzarella a cubetti, mescola e servi subito."
+        ]
     },
     {
         "id": 5,
@@ -62,7 +90,14 @@
             "Pasta",
             "Pesto alla genovese",
             "Parmigiano grattugiato"
-            ]
+        ],
+        "steps": [
+            "Cuoci la pasta in abbondante acqua salata seguendo i tempi indicati.",
+            "Preleva un mestolino di acqua di cottura prima di scolare la pasta.",
+            "Trasferisci la pasta in una ciotola e aggiungi il pesto.",
+            "Mescola bene aggiungendo poca acqua di cottura per rendere il condimento cremoso.",
+            "Completa con parmigiano grattugiato e servi."
+        ]
     },
     {
         "id": 6,
@@ -76,7 +111,14 @@
             "Ceci",
             "Olio d'oliva",
             "Limone"
-            ]
+        ],
+        "steps": [
+            "Versa il cous cous in una ciotola e coprilo con acqua calda leggermente salata.",
+            "Lascia gonfiare per 5 minuti, poi sgrana i chicchi con una forchetta.",
+            "Taglia le verdure grigliate a pezzi e uniscile al cous cous.",
+            "Aggiungi i ceci scolati e condisci con olio d'oliva e succo di limone.",
+            "Mescola con cura e lascia riposare qualche minuto prima di servire."
+        ]
     },
     {
         "id": 7,
@@ -91,6 +133,13 @@
             "Piselli",
             "Olive",
             "Maionese"
-            ]
+        ],
+        "steps": [
+            "Cuoci il riso in acqua salata, scolalo e raffreddalo sotto acqua fredda.",
+            "Scola il tonno e taglia il prosciutto cotto a cubetti piccoli.",
+            "Cuoci i piselli se necessario e denocciola le olive.",
+            "Unisci tutti gli ingredienti in una ciotola capiente con il riso.",
+            "Aggiungi maionese a piacere, mescola bene e lascia in frigo prima di servire."
+        ]
     }
 ]

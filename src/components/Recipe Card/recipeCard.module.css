@@ -1,6 +1,6 @@
 .card {
-	width: 330px;
-	min-height: 390px;
+	width: 230px;
+	min-height: 300px;
 	display: flex;
 	flex-direction: column;
 	border-radius: 16px;
@@ -17,7 +17,7 @@
 }
 
 .imageWrap {
-	height: 220px;
+	height: 140px;
 	overflow: hidden;
 	background: #efe2ff;
 }
@@ -38,19 +38,19 @@
 	flex: 1;
 	display: flex;
 	flex-direction: column;
-	padding: 30px 16px 16px;
+	padding: 15px 11px 9px;
 }
 
 .title {
 	margin: 0;
-	font-size: 2rem;
+	font-size: 1.25rem;
 	line-height: 1.25;
 	color: #2f0f56;
 }
 
 .meta {
 	margin: 8px 0 14px;
-	font-size: 1.2rem;
+	font-size: 0.875rem;
 	color: #6a4b93;
 }
 
@@ -63,7 +63,7 @@
 	background: linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%);
 	color: #fff;
 	font-weight: 600;
-    font-size: 1rem;
+    font-size: 0.775rem;
 	cursor: pointer;
 	transition: filter 150ms ease, transform 150ms ease;
 }
@@ -150,7 +150,7 @@
 }
 
 .ingredientsBlock {
-	margin-bottom: 14px;
+	margin-bottom: 3px;
 }
 
 .list,
@@ -158,7 +158,7 @@
 	margin: 0 0 8px;
 	padding-left: 18px;
 	color: #4a2f73;
-	font-size: 0.9rem;
+	font-size: 0.775rem;
 	line-height: 1.45;
 }
 

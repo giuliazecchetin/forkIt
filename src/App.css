@@ -7,6 +7,9 @@
 .recipesGrid {
 	display: grid;
     margin-top: 5rem;
+	width: 100%;
+	box-sizing: border-box;
+	padding-inline: clamp(12px, 3vw, 28px);
 	grid-template-columns: repeat(4, 330px);
 	justify-content: center;
 	gap: 30px;
